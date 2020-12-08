@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 0 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.item-1 {
+  background-image: url("fiordland_national_park.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: one;
+}
